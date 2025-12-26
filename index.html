@@ -1,18 +1,3 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Index</title>
-</head>
-
-<body>
-    <h1>Hello, world!</h1>
-
-</body>
-
-</html>
 <!DOCTYPE html>
 <html lang="id">
 
@@ -20,11 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JASMINE LAUNDRY | Cepat & Bersih</title>
-
-    <!-- Fonts & Bootstrap -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
         :root {
             --gold: #FFD700;
@@ -38,17 +20,15 @@
             color: var(--gold);
         }
 
-        /* Navbar */
         .navbar {
             background: #000;
             border-bottom: 2px solid var(--gold);
         }
 
         .navbar a {
-            color: var(--gold) !important
+            color: var(--gold) !important;
         }
 
-        /* Sections */
         .section {
             padding: 70px 0;
         }
@@ -61,10 +41,9 @@
 
         .hero h1 {
             font-size: 3rem;
-            font-weight: 700
+            font-weight: 700;
         }
 
-        /* Cards */
         .service-card,
         .pricing-box {
             background: var(--dark);
@@ -74,14 +53,6 @@
             text-align: center;
         }
 
-        .service-card svg {
-            width: 50px;
-            height: 50px;
-            stroke: var(--gold);
-            margin-bottom: 10px;
-        }
-
-        /* Button */
         .btn-gold {
             background: var(--gold);
             color: #000;
@@ -89,10 +60,9 @@
         }
 
         .btn-gold:hover {
-            background: #FFC107
+            background: #FFC107;
         }
 
-        /* Floating WA */
         .wa-float {
             position: fixed;
             bottom: 20px;
@@ -108,28 +78,19 @@
             font-size: 28px;
             z-index: 999;
             box-shadow: 0 5px 15px rgba(0, 0, 0, .4);
+            text-decoration: none;
         }
 
-        .wa-float:hover {
-            opacity: .9
-        }
-
-        /* Footer */
         footer {
             border-top: 2px solid var(--gold);
             padding: 20px;
             text-align: center;
-        }
-
-        iframe {
-            border-radius: 12px
         }
     </style>
 </head>
 
 <body>
 
-    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">JASMINE LAUNDRY</a>
@@ -141,13 +102,12 @@
                     <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Layanan</a></li>
                     <li class="nav-item"><a class="nav-link" href="#pricing">Harga</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Hero -->
     <section id="home" class="hero">
         <div class="container">
             <h1>JASMINE LAUNDRY</h1>
@@ -156,169 +116,90 @@
         </div>
     </section>
 
-    <!-- Services -->
-    <section id="services" class="section">
+    <section id="about" class="section">
         <div class="container">
-            <h2 class="text-center mb-5">Layanan Kami</h2>
-            <div class="row g-4">
-                <div class="col-md-4">
-                    <div class="service-card">
-                        <h5>Cuci pakaian</h5>
-                        <p>Pakaian rapi & wangi</p>
+            <div class="row justify-content-center">
+                <div class="col-md-10 text-center">
+                    <div class="p-3 mb-5"
+                        style="background-color: black; border-radius: 10px; border: 2px solid var(--gold);">
+                        <h2 style="font-weight: bold; color: white; margin-bottom: 0;">Kenapa Jasmine Laundry?</h2>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-card">
-                        <h5>Cuci barang</h5>
-                        <p>Siap pakai tanpa repot</p>
+                    <div class="row text-center">
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 h-100"
+                                style="background-color: black; border-radius: 15px; border: 1px solid var(--gold);">
+                                <h5 style="font-weight: bold; color: white;">✨ Amanah</h5>
+                                <p class="small" style="color: white;">Setiap potong pakaian dijaga dengan penuh
+                                    tanggung jawab.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 h-100"
+                                style="background-color: black; border-radius: 15px; border: 1px solid var(--gold);">
+                                <h5 style="font-weight: bold; color: white;">⚡ Cepat</h5>
+                                <p class="small" style="color: white;">Proses pengerjaan tepat waktu tanpa mengganggu
+                                    aktivitas Anda.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 h-100"
+                                style="background-color: black; border-radius: 15px; border: 1px solid var(--gold);">
+                                <h5 style="font-weight: bold; color: white;">🧺 Rapi</h5>
+                                <p class="small" style="color: white;">Teknik setrika uap memastikan pakaian licin dan
+                                    siap pakai.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 mb-4">
+                            <div class="p-3 h-100"
+                                style="background-color: black; border-radius: 15px; border: 1px solid var(--gold);">
+                                <h5 style="font-weight: bold; color: white;">🌸 Puas</h5>
+                                <p class="small" style="color: white;">Hasil akhir yang harum, bersih, dan higienis
+                                    sampai tangan Anda.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="service-card">
-                        <h5>Setrika</h5>
-                        <p>Hasil rapi maksimal</p>
+                    <div class="mt-4 p-4"
+                        style="background-color: white; border-radius: 15px; border: 2px solid black;">
+                        <p class="mb-0" style="color: black; font-weight: bold;">
+                            <em>"Menghadirkan kesegaran dan kenyamanan di setiap serat kain Anda."</em>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing -->
-    <section id="pricing" class="section">
-        <div class="container">
-            <h2 class="text-center mb-4">Daftar Harga</h2>
-            <div class="pricing-box">
-                <table class="table table-dark table-borderless">
-                    <tr>
-                        <td>Cuci pakaian</td>
-                        <td>Rp 9.000</td>
-                        <td>min.5 kilo</td>
-                    </tr>
-                    <tr>
-                        <td>Cuci barang</td>
-                        <td>Rp menyesuaikan</td>
-                        <td>min.5 kilo</td>
-                    </tr>
-                    <tr>
-                        <td>Setrika</td>
-                        <td>Rp 5.000</td>
-                        <td>min.5 kilo</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Paket cuci pakaian</strong></td>
-                        <td><strong>Rp 22.000</strong></td>
-                        <td><strong>min.5 kilo</strong></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
     <section id="contact" class="section">
         <div class="container">
-            <h2 class="text-center mb-4">Lokasi & Kontak</h2>
-
-            <!-- Google Maps -->
-            <div class="mb-4">
-                <iframe src="https://www.google.com/maps?q=LATITUDE,LONGITUDE&output=embed" width="100%" height="350"
-                    loading="lazy"></iframe>
-            </div>
-            <form id="orderForm">
-    <input type="text" class="form-control mb-3" id="name" placeholder="Nama" required>
-
-    <input type="text" class="form-control mb-3" id="order" placeholder="Pesanan" required>
-
-    <input type="text" class="form-control mb-3" id="address" placeholder="Alamat" required>
-
-    <textarea class="form-control mb-3" id="notes" placeholder="Catatan"></textarea>
-
-    <button type="submit" class="btn btn-gold w-100">Masukkan Pesanan</button>
-</form>
-                </button>
+            <h2 class="text-center mb-4">Order Sekarang</h2>
+            <form id="orderForm" class="mx-auto" style="max-width: 500px;">
+                <input type="text" class="form-control mb-3" id="name" placeholder="Nama" required>
+                <input type="text" class="form-control mb-3" id="order" placeholder="Pesanan" required>
+                <input type="text" class="form-control mb-3" id="address" placeholder="Alamat" required>
+                <textarea class="form-control mb-3" id="notes" placeholder="Catatan"></textarea>
+                <button type="submit" class="btn btn-gold w-100">Kirim via WhatsApp</button>
             </form>
         </div>
     </section>
 
-
-    <!-- Floating WhatsApp -->
     <a class="wa-float" href="https://wa.me/6285801065455" target="_blank">💬</a>
-
-    <<script>
-    document.getElementById('orderForm').addEventListener('submit', e => {
-        e.preventDefault();
-
-        // TAMBAHKAN BARIS INI (Definisikan dulu ID-nya)
-        const inputNama = document.getElementById('name').value;
-        const inputOrder = document.getElementById('order').value;
-        const inputAddress = document.getElementById('address').value;
-        const inputNotes = document.getElementById('notes').value;
-
-        // Susun pesan menggunakan variabel yang sudah dibuat di atas
-        const msg = `Nama: ${inputNama}%0APesanan: ${inputOrder}%0AAlamat: ${inputAddress}%0ACatatan: ${inputNotes}`;
-
-        // Buka WhatsApp
-        window.open(`https://wa.me/6285801065455?text=${msg}`);
-    });
-</script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-<section id="about" class="section">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 text-center">
-                
-                <div class="p-3 mb-5" style="background-color: black; border-radius: 10px; border: 2px solid var(--gold);">
-                    <h2 style="font-weight: bold; color: white; margin-bottom: 0;">Kenapa Jasmine Laundry?</h2>
-                </div>
-                
-                <div class="row text-center">
-                    <div class="col-md-3 mb-4">
-                        <div class="p-3 h-100" style="background-color: black; border-radius: 15px; border: 1px solid var(--gold);">
-                            <h5 style="font-weight: bold; color: white;">✨ Amanah</h5>
-                            <hr style="border-top: 1px solid var(--gold);">
-                            <p class="small" style="color: white;">Setiap potong pakaian dijaga dengan penuh tanggung jawab.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-4">
-                        <div class="p-3 h-100" style="background-color: black; border-radius: 15px; border: 1px solid var(--gold);">
-                            <h5 style="font-weight: bold; color: white;">⚡ Cepat</h5>
-                            <hr style="border-top: 1px solid var(--gold);">
-                            <p class="small" style="color: white;">Proses pengerjaan tepat waktu agar aktivitas Anda tidak terganggu.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-4">
-                        <div class="p-3 h-100" style="background-color: black; border-radius: 15px; border: 1px solid var(--gold);">
-                            <h5 style="font-weight: bold; color: white;">🧺 Rapi</h5>
-                            <hr style="border-top: 1px solid var(--gold);">
-                            <p class="small" style="color: white;">Teknik setrika uap memastikan pakaian licin dan siap pakai.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 mb-4">
-                        <div class="p-3 h-100" style="background-color: black; border-radius: 15px; border: 1px solid var(--gold);">
-                            <h5 style="font-weight: bold; color: white;">🌸 Puas</h5>
-                            <hr style="border-top: 1px solid var(--gold);">
-                            <p class="small" style="color: white;">Hasil akhir yang harum, bersih, dan higienis sampai ke tangan Anda.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-4 p-4" style="background-color: white; border-radius: 15px; border: 2px solid black;">
-                    <p class="mb-0" style="color: black; font-weight: bold;">
-                        <em>"Menghadirkan kesegaran dan kenyamanan di setiap serat kain Anda. Karena bagi kami, kebersihan adalah amanah yang utama."</em>
-                    </p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
 
     <footer>
         <p>© 2024 JASMINE LAUNDRY</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById('orderForm').addEventListener('submit', e => {
+            e.preventDefault();
+            const inputNama = document.getElementById('name').value;
+            const inputOrder = document.getElementById('order').value;
+            const inputAddress = document.getElementById('address').value;
+            const inputNotes = document.getElementById('notes').value;
+            const msg = `Nama: ${inputNama}%0APesanan: ${inputOrder}%0AAlamat: ${inputAddress}%0ACatatan: ${inputNotes}`;
+            window.open(`https://wa.me/6285801065455?text=${msg}`);
+        });
+    </script>
+</body>
+
 </html>
